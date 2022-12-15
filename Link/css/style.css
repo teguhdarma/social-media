@@ -1,10 +1,10 @@
-a {
-    color: rgb(12, 12, 12);
+
+  .a {color: rgb(12, 12, 12);
     text-decoration: none;
   }
   .me {
     width: 200px;
-    margin: 90px auto;
+    margin: 50px auto;
   }
   .me p,
   .me h1 {
@@ -13,14 +13,14 @@ a {
     text-align: center;
   }
   .me p {
-    font-weight: 200;
+    font-weight: 100;
   }
   .me span {
     font-weight: bold;
   }
   .social {
     position: fixed;
-    top: 155px;
+    top: 80px;
   }
   .social ul {
     padding: 0px;
@@ -29,14 +29,15 @@ a {
     -ms-transform: translate(-270px, 0);
     -o-transform: translate(-270px, 0);
     transform: translate(-270px, 0);
+
   }
   .social ul li {
     display: block;
-    margin: 30px;
+    margin: 40px;
     background: rgb(191, 228, 196);
-    width: 400px;
+    width: 500px;
     text-align: right;
-    padding: 8px;
+    padding: 22px;
     -webkit-border-radius: 0 30px 30px 0;
     -moz-border-radius: 0 30px 30px 0;
     border-radius: 0 30px 30px 0;
@@ -74,7 +75,7 @@ a {
   .social ul li i {
     margin-left: 10px;
     color: rgb(7, 7, 7);
-    background: rgb(240, 8, 8);
+    background: rgb(8, 8, 8);
     padding: 10px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -158,6 +159,9 @@ a {
     transform: rotate(0deg);
   }
 
+  
+
+
   .social ul li:hover d {
     color: rgb(252, 245, 245);
     background: rgb(60, 240, 5);
@@ -208,10 +212,221 @@ h1 {
   padding: auto;
 }
 
-@media(min-width: 768px){
-  a[href^="tel:"]{
-    pointer-events: none;
+@media screen and (max-wibth:497px) {
+  /*画面サイズ　497pxまで適用*/
+
+  .a {color: rgb(12, 12, 12);
+    text-decoration: none;
   }
-}
+  .me {
+    width: 10px;
+    margin: 50px auto;
+  }
+  .me p,
+  .me h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .me p {
+    font-weight: 100;
+  }
+  .me span {
+    font-weight: bold;
+  }
+  .social {
+    position: fixed;
+    top: 50px;
+  }
+  .social ul {
+    padding: 0px;
+    -webkit-transform: translate(-270px, 0);
+    -moz-transform: translate(-270px, 0);
+    -ms-transform: translate(-270px, 0);
+    -o-transform: translate(-270px, 0);
+    transform: translate(-270px, 0);
+
+  }
+  .social ul li {
+    display: block;
+    margin: 40px;
+    background: rgb(191, 228, 196);
+    width: 500px;
+    text-align: right;
+    padding: 22px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li:hover {
+    -webkit-transform: translate(110px, 0);
+    -moz-transform: translate(110px, 0);
+    -ms-transform: translate(110px, 0);
+    -o-transform: translate(110px, 0);
+    transform: translate(110px, 0);
+    background: rgb(229, 240, 76);
+  }
+  .social ul li:hover a {
+    color: rgb(10, 10, 10);
+  }
+  .social ul li:hover i {
+    color: rgb(252, 245, 245);
+    background: rgb(83, 152, 216);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li i {
+    margin-left: 10x;
+    color: rgb(7, 7, 7);
+    background: rgb(8, 8, 8);
+    padding: 10px;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    border-radius: 25%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    background: #eeeaea;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  .social ul li:hover b {
+    color: rgb(252, 245, 245);
+    background: rgb(7, 21, 224);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+
+  .social ul li b {
+    margin-left: 10px;
+    color: rgb(7, 7, 7);
+    background: rgb(240, 8, 8);
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    background: #eeeaea;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  .social ul li:hover c {
+    color: rgb(252, 245, 245);
+    background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    overflow:hidden;	
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li c {
+    margin-left: 10px;
+    color: rgb(7, 7, 7);
+    background: rgb(240, 8, 8);
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    background: #eeeaea;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
 
   
+
+
+  .social ul li:hover d {
+    color: rgb(252, 245, 245);
+    background: rgb(60, 240, 5);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  
+  .social ul li d {
+    margin-left: 10px;
+    color: rgb(7, 7, 7);
+    background: rgb(240, 8, 8);
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    background: #eeeaea;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  
+  body {
+    background: linear-gradient(to right, rgb(137, 196, 245), rgb(238, 240, 233));
+    color: rgb(5, 5, 5);
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  line-height: 160%;
+  font-size: 160%;
+  color: rgb(103, 121, 1);
+  background-color:rgb(232, 245, 231);
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+
+}
